@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail UI Clone</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+        rel="stylesheet">
+
+
+    <div class="header">
+        <div class="header__left">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+        </div>
+        <div class="header__middle">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <input type="text" placeholder="Search Mail">
+            <span class="material-symbols-outlined">
+                arrow_drop_down
+            </span>
+        </div>
+        <div class="header__right">
+            <span class="material-symbols-outlined">
+                apps
+            </span>
+            <span class="material-symbols-outlined">
+                notifications
+            </span>
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+        </div>
+
+    </div>
+
+
+
+    <div class="main__body">
+
+        <div class="sidebar">
+            <button class="sidebar__compose">
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+                Compose
+            </button>
+            <div class="sidebarOption sidebarOption__active">
+                <span class="material-symbols-outlined">
+                    inbox
+                </span>
+                <h3>Inbox</h3>
+            </div>
+            <div class="sidebarOption ">
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <h3>Star</h3>
+            </div>
+            <div class="sidebarOption ">
+                <span class="material-icons-outlined">
+                    access_time
+                </span>
+                <h3>Snoozed</h3>
+            </div>
+            <div class="sidebarOption ">
+                <span class="material-icons-outlined">
+                    label_important
+                </span>
+                <h3>Important</h3>
+            </div>
+            <div class="sidebarOption ">
+                <span class="material-icons-outlined">
+                    near_me
+                </span>
+                <h3>Sent</h3>
+            </div>
+            <div class="sidebarOption ">
+                <span class="material-icons-outlined">
+                    description
+                </span>
+                <h3>Drafts</h3>
+            </div>
+            <div class="sidebarOption ">
+                <span class="material-icons-outlined">
+                    expand_more
+                </span>
+                <h3>More</h3>
+            </div>
+            <div class="sidebar__footer">
+                <div class="sidebar__footerIcons">
+                    <span class="material-icons-outlined">
+                        person
+                    </span>
+                    <span class="material-icons-outlined">
+                        duo
+                    </span>
+                    <span class="material-icons-outlined">
+                        phone
+                    </span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="emailList">
+            <div class="emailList__settings">
+
+                <div class="emailList__settingsLeft">
+                    <input type="checkbox">
+                    <span class="material-icons-outlined">
+                        arrow_drop_down
+                    </span>
+                    <span class="material-icons-outlined">
+                        redo
+                    </span>
+                    <span class="material-icons-outlined">
+                        more_vert
+                    </span>
+
+                </div>
+                <div class="emailList__settingsRight">
+                    <span class="material-icons-outlined">
+                        chevron_left
+                    </span>
+                    <span class="material-icons-outlined">
+                        chevron_right
+                    </span>
+                    <span class="material-icons-outlined">
+                        keyboard_hide
+                    </span>
+                    <span class="material-icons-outlined">
+                        settings
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="emailList__section">
+
+                <div class="section section__selected">
+                    <span class="material-symbols-outlined section__selected">
+                        inbox
+                    </span>
+                    <h4>Primary</h4>
+                </div>
+                <div class="section">
+                    <span class="material-icons-outlined">
+                        people
+                    </span>
+                    <h4>Social</h4>
+                </div>
+                <div class="section">
+                    <span class="material-icons-outlined">
+                        local_offer
+                    </span>
+                    <h4>Promotions</h4>
+                </div>
+
+            </div>
+
+            <div class="emailList__list">
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons-outlined">
+                            star_border
+                        </span>
+                        <span class="material-icons-outlined">
+                            label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Sender</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Message ...  
+                            <span class="emailRow__description">- on ...</span>
+                         </h4>
+                    </div>
+                    <p class="emailRow__time">10pm</p>
+                </div>
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons-outlined">
+                            star_border
+                        </span>
+                        <span class="material-icons-outlined">
+                            label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Sender</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Message ...  
+                            <span class="emailRow__description">- on ...</span>
+                         </h4>
+                    </div>
+                    <p class="emailRow__time">10pm</p>
+                </div>
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons-outlined">
+                            star_border
+                        </span>
+                        <span class="material-icons-outlined">
+                            label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Sender</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Message ...  
+                            <span class="emailRow__description">- on ...</span>
+                         </h4>
+                    </div>
+                    <p class="emailRow__time">10pm</p>
+                </div>
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons-outlined">
+                            star_border
+                        </span>
+                        <span class="material-icons-outlined">
+                            label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Sender</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Message ...  
+                            <span class="emailRow__description">- on ...</span>
+                         </h4>
+                    </div>
+                    <p class="emailRow__time">10pm</p>
+                </div>
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons-outlined">
+                            star_border
+                        </span>
+                        <span class="material-icons-outlined">
+                            label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Sender</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Message ...  
+                            <span class="emailRow__description">- on ...</span>
+                         </h4>
+                    </div>
+                    <p class="emailRow__time">10pm</p>
+                </div>
+                <div class="emailRow">
+                    <div class="emailRow__options">
+                        <input type="checkbox">
+                        <span class="material-icons-outlined">
+                            star_border
+                        </span>
+                        <span class="material-icons-outlined">
+                            label_important
+                        </span>
+                    </div>
+                    <h3 class="emailRow__title">Sender</h3>
+
+                    <div class="emailRow__message">
+                        <h4>Message ...  
+                            <span class="emailRow__description">- on ...</span>
+                         </h4>
+                    </div>
+                    <p class="emailRow__time">10pm</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+
+    </body>
+
+</html>
